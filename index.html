@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MWKH9J6');</script>
+<!-- End Google Tag Manager -->
+
+ 
+	
+<link rel="stylesheet" href="css/54.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GuyStocks - Revolutionary Stock Alerts</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MWKH9J6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	
+    <!-- Header Section -->
+    <section class="header-section">
+        <div class="container">
+            <img src="img/logo.svg" alt="GuyStocks Logo" class="logo">
+            <div class="header-content">
+                <div class="hero-text">
+                    <h1 class="main-title">Want Revolutionary Alerts?</h1>
+                    <p class="subtitle">Be The First To Know All The Major Stock Picks And Get Access To Our Full Report!</p>
+                    <form class="email-form" onsubmit="redirectToQQ(event)">
+                        <input type="email" class="email-input" placeholder="Enter your email address" required>
+                        <button type="submit" class="cta-button">Get Started Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second Section -->
+    <section class="second-section">
+        <div class="container">
+            <div class="content-block">
+                <div class="text-content">
+                    <h2>What you need to know are the companies we believe have huge upside potential for massive gains.</h2>
+                </div>
+                <div>
+                    <img src="img/feature.png" alt="Stock Analysis Feature" class="feature-image">
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <div class="faq-item">
+                    <div class="faq-question">How much money do I need to get started?</div>
+                    <div class="faq-answer">That's totally up to you! Some members start with as little as $100 and later trade thousands of dollars.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">When will I receive my first newsletter?</div>
+                    <div class="faq-answer">We try to send you alerts every few days, but as you know, the market can be volatile and sometimes it might take longer. It's better to spend more time researching until we're sure.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Why is GuyStocks free?</div>
+                    <div class="faq-answer">Any revenue we earn from small ads in the newsletter goes directly to paying our research and writing team. Therefore, the newsletter will be free for life and will not be spam.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Sign up and get trading news, become an expert!</h2>
+            <form class="email-form" onsubmit="redirectToQQ(event)">
+                <input type="email" class="email-input" placeholder="Enter your email address" required>
+                <button type="submit" class="cta-button">Get Started Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <img src="img/logo.svg" alt="GuyStocks Logo" class="footer-logo">
+            <div class="footer-links">
+                <a href="privacy.html" target="_blank">Privacy Policy</a>
+                <a href="terms.html" target="_blank">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="whatsappModal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div class="modal-title">
+                Please add our customer service assistant on WhatsApp to receive instant message alerts for real-time financial market newsletter.
+            </div>
+            <div class="modal-buttons">
+                <button class="modal-btn primary" onclick="confirmRedirect()">Confirm</button>
+                <button class="modal-btn" onclick="closeModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      
+
+        function redirectToQQ(event) {
+           event.preventDefault();
+           // showModal();
+		window.location.href="b.html";
+		  //  window.open('b.html', '_blank');
+        }
+
+        function showModal() {
+            document.getElementById('whatsappModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('whatsappModal').style.display = 'none';
+        }
+
+        function confirmRedirect() {
+            closeModal();
+            window.open('http://sdre.forum/book', '_blank');
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('whatsappModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        // Prevent zoom on iOS
+        document.addEventListener('gesturestart', function(e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener('gesturechange', function(e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener('gestureend', function(e) {
+            e.preventDefault();
+        });
+    </script>
+</body>
+</html>
